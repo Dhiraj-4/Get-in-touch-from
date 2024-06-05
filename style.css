@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+body{
+    align-items: center;
+    background: linear-gradient(#ffdad5,#6F2DBD);
+    background-attachment: fixed;
+}
+#header{
+    font-family: 'arial';
+    color: #6F2DBD;
+    margin-top: 125px;
+    margin-left: 100px;
+    font-size: xx-large;
+
+}
+hr{
+    background-color: #6F2DBD;
+    padding: 2px;
+    font-weight: 300;
+    width:150px;
+    border-radius: 360px;
+}
+
+#form{
+    height: 500px;
+    align-items: center;
+    margin-right: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+#input{
+    font-size:x-large;
+    background-color: #FFFFFF;
+    border-radius: 360px;
+    border-color: #6F2DBD;
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+}
+#input:hover{
+    background: linear-gradient(#000000,#6F2DBD);
+    color: #FFFFFF;
+}
+#message{
+    width: 500px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size:x-large;
+    padding-left: 20px;
+    border-color: #6F2DBD;
+
+}
+#submit{
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 360px;
+    font-size:x-large;
+    background: linear-gradient(#ffdad5,#6F2DBD);
+    border-color: #EE8434;
+}
+#submit:hover{
+    background: linear-gradient(#000000,#6F2DBD);
+    color: #FFFFFF;
+}
+#message:hover{
+    
+    background: linear-gradient(#000000,#6F2DBD);
+    color: #FFFFFF;
+}
+
+
